@@ -2,7 +2,7 @@
 
 > Build Flutter Applications for the PinePhone with Docker
 
-An example project that contains everything needed to build a test application for a pinephone.  
+An example project that contains everything needed to build a test application for a pinephone.  <img src="https://raw.githubusercontent.com/dretay/pinephone_flutter_docker/master/screenshot.jpg" align="right" width="208">
 
 ### Build Instructions ###
 #### PC Setup
