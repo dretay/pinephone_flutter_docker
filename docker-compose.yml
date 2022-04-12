@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  my_flutter:
+    build:
+      context: ./dockerflutter
+      dockerfile: Dockerfile
+    image: my_flutter
+    container_name: my_flutter
+    tty: true
+    stdin_open: true
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    privileged: true
+    environment:
+      - TZ=Etc/UTC
